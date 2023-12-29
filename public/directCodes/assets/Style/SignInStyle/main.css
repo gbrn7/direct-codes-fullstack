@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  font-weight: 400;
+  font-size: 15px;
+}
+.navbar .logo {
+  width: 170px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #F58634;
+  font-weight: 600;
+}
+.navbar .box-signup {
+  border-radius: 10px;
+}
+
+.hero {
+  height: 100vh;
+  background: url(../../img/Waves-Signin.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .form-wrapper .form-wrap {
+  background: rgba(249, 249, 249, 0.3);
+  /* Glasmorphism */
+  box-shadow: 11px 28px 23px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 40px;
+}
+.hero .form-wrapper .form-wrap .row-1 .label-login {
+  font-weight: 600;
+  font-size: 25px;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper {
+  margin-bottom: 37px;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper p {
+  font-weight: 500;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .input-wrap input {
+  width: 100%;
+  border-color: none;
+  border-radius: 10px;
+  font-weight: 500;
+  height: 40px;
+  background-color: #F8F9FD;
+  padding-left: 20px;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button {
+  position: relative;
+  overflow: hidden;
+  padding: 7px 30px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border: none;
+  font-weight: 600;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: -0.08em;
+  text-transform: capitalize;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button .button-content {
+  position: relative;
+  z-index: 10;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button .arrow {
+  font-size: 23px;
+  margin-left: 15px;
+  transform: translateX(-5px);
+  transition: all 0.4s ease-in-out;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+  background: linear-gradient(90deg, rgb(0, 175, 145) 23.43%, rgb(245, 134, 52) 73.7%);
+  transition: all 0.4s ease-in-out;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button:hover::before {
+  width: 100%;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button:hover {
+  color: white;
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper .btn-signUp .button:hover .arrow {
+  transform: translateX(0);
+}
+.hero .form-wrapper .form-wrap .row-2 .input-wrapper p {
+  font-weight: 500;
+  font-size: 13px;
+}
+.hero .form-wrapper .form-wrap .row-3 .footer-wrapper {
+  font-weight: 400;
+  font-size: 11px;
+}
+.hero .form-wrapper .form-wrap .row-3 .footer-wrapper a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

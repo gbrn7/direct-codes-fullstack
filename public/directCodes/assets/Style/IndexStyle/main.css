@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: url(../../img/Index-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navbar .btn-wrapper {
+  background: linear-gradient(90deg, rgba(0, 175, 145, 0.7) 23.43%, rgba(245, 134, 52, 0.7) 73.7%);
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
+}
+.navbar .btn-wrapper a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+
+.content {
+  height: 100vh;
+}
+.content .txt-content .head-wrapper p {
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  font-size: 80px;
+}
+.content .txt-content .desc p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: -0.01em;
+}
+.content .txt-content .button .btn-cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: none;
+}
+.content .txt-content .button .btn-cta a {
+  font-weight: 600;
+  color: black;
+  position: relative;
+}
+.content .txt-content .button .btn-cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.content .txt-content .button .btn-cta:hover:before {
+  width: 100%;
+  background: linear-gradient(90deg, rgba(0, 175, 145, 0.7) 23.43%, rgba(245, 134, 52, 0.7) 73.7%);
+}
+.content .txt-content .button .btn-cta:hover {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.content .txt-content .button .btn-cta:hover a {
+  color: white;
+}
+.content .txt-content .button .btn-cta:active {
+  transform: scale(0.95);
+}/*# sourceMappingURL=main.css.map */
